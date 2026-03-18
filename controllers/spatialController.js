@@ -9,6 +9,7 @@ exports.addLocation = async (req, res) => {
     }
 };
 
+
 exports.nearest = async (req, res) => {
     const { lat, lon } = req.query;
 
